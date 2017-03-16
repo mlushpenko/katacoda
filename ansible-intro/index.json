@@ -20,9 +20,10 @@
     "environment": {
         "hideintro": true,
         "hidefinish": true,
-        "uilayout": "terminal"
+        "uilayout": "editor-terminal",
+        "uisettings": "javascript",
     },
     "backend": {
-        "dockerimage": "ansible/centos7-ansible"
+        "image": "ansible/centos7-ansible"
     }
 }
