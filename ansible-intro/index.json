@@ -21,7 +21,7 @@
         "hideintro": true,
         "hidefinish": true,
         "uilayout": "editor-terminal",
-        "uisettings": "javascript",
+        "uisettings": "javascript"
     },
     "backend": {
         "image": "ansible/centos7-ansible"
