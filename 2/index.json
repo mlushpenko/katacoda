@@ -17,6 +17,9 @@
             "text": "finish.md"
         }
     },
+    "files": [
+        "app.js"
+    ],
     "environment": {
         "hideintro": true,
         "hidefinish": true,
