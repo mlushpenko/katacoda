@@ -27,6 +27,6 @@
         "uisettings": "javascript"
     },
     "backend": {
-        "dockerimage": "ansible"
+        "dockerimage": "ubuntu-ansible-v1"
     }
 }
