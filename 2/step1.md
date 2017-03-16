@@ -1,5 +1,15 @@
-Taken from https://katacoda.com/courses/git/1
+After Ansible is installed, you can execute several different executables to run Ansible in specific mode:
+- ad-hoc: perform one-off command on a single host or a group of hosts
+- structured: execute ansible playbook (script) that performs a number of predefined tasks on remote servers in a specific order
 
-Users must run the command `git init`{{execute}} before they can proceed to step 2. The verify script is a bash command. If the user can proceed the script should output "done" with exit code 0.
+Ad-hoc commands can be excuted by calling `ansible` executable, while structured - by calling `ansible-playbook`
 
-A solution button available if users require help in order to proceed. The text is loaded from step1-answer.md.
+Try running `ansible`{{execute}} and you will notice that it expects the name of the server to which you want to talk to and some additional options:
+
+`Usage: ansible <host-pattern> [options]` 
+
+Then run `ansible-playbook`{{execute}} which needs only the name of playbook as everything else can be defnied within the playbook:
+
+`Usage: ansible-playbook playbook.yml` 
+
+Most of the other options help you to define specific connection options between your machine and servers to which you are connecting.
