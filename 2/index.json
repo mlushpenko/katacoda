@@ -27,6 +27,6 @@
         "uisettings": "javascript"
     },
     "backend": {
-        "image": "ansible/centos7-ansible"
+        "dockerimage": "ansible/centos7-ansible"
     }
 }
