@@ -9,9 +9,9 @@
             },
             {
                 "title": "Step 2 - Modules",
-                "text": "step1.md",
+                "text": "step2.md",
                 "verify": "step1-verify.sh",
-                "answer": "step1-answer.md"
+                "answer": "step2-answer.md"
             }
         ],
         "intro": {
