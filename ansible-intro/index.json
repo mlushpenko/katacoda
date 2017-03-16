@@ -23,6 +23,6 @@
         "uilayout": "terminal"
     },
     "backend": {
-        "dockerimage": "git"
+        "dockerimage": "ansible/centos7-ansible"
     }
 }
