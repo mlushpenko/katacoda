@@ -1,8 +1,9 @@
 You can run Ansible in two different modes:
-> ad-hoc: perform one-off command on a single host or a group of hosts
+> [ad-hoc](http://docs.ansible.com/ansible/intro_adhoc.html): perform one-off command on a single host or a group of hosts
 
 
-> structured: execute ansible playbook (script) that performs a number of predefined tasks on remote servers in a specific order
+
+> [structured](http://docs.ansible.com/ansible/playbooks.html): execute ansible playbook (script) that performs a number of predefined tasks on remote servers in a specific order
 
 Try running `ansible`{{execute}} (ad-hoc mode) and you will notice that it expects host-pattern (names of servers to which you want to talk to) and additional options like the command that you want to execute:
 

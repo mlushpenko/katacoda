@@ -25,10 +25,16 @@
             {
                 "title": "Step 4 - Workflow",
                 "text": "step4.md"
+            },
+            {
+                "title": "Step 5 - Playbooks",
+                "text": "step5.md",
+                "answer": "step5-answer.md"
             }
         ],
         "intro": {
-            "text": "intro.md"
+            "text": "intro.md",
+            "courseData": "playbook.sh"
         },
         "finish": {
             "text": "finish.md"
@@ -39,8 +45,8 @@
     ],
     "environment": {
         "hideintro": false,
-        "hidefinish": true,
-        "uilayout": "editor-terminal",
+        "hidefinish": false,
+        "uilayout": "terminal",
         "uisettings": "javascript"
     },
     "backend": {
