@@ -1,6 +1,7 @@
 {
-    "title": "Ansible",
-    "description": "Learn Ansible from the comfort of your browser",
+    "title": "Ansible Intro",
+    "description": "Learn what is Ansible and how to execute simple commands",
+    "course": "Ansible",
     "details": {
         "steps": [
             {
