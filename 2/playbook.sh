@@ -1,9 +1,7 @@
-cat > folder.yml << EOF
-- hosts: localhost
-  tasks:
-    - name: create folder
-      file:
-        path: /home/scrapbook/tutorial/tasks
-        state: directory
-        mode: 0755
-EOF
+echo '- hosts: localhost' >> folder.yml 
+echo '  tasks:' >> folder.yml 
+echo '    - name: create folder' >> folder.yml 
+echo '      file:' >> folder.yml 
+echo '        path: /home/scrapbook/tutorial/tasks' >> folder.yml 
+echo '        state: directory' >> folder.yml 
+echo '        mode: 0755' >> folder.yml 
