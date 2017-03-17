@@ -1,7 +1,6 @@
 {
     "title": "Ansible Intro",
     "description": "Learn what is Ansible and how to execute simple commands",
-    "course": "ansible",
     "difficulty": "beginner",
     "time": "10-15 minutes",
     "authenticated": "",
@@ -40,9 +39,6 @@
             "text": "finish.md"
         }
     },
-    "files": [
-        "app.js"
-    ],
     "environment": {
         "hideintro": false,
         "hidefinish": false,
