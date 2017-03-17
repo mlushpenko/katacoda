@@ -6,4 +6,6 @@ Full list of modules is available [here](http://docs.ansible.com/ansible/modules
 
 Try `ansible-doc ping`{{execute}}
 
+# Task 
+
 Now, based on the usage description, test connection with our machine (**Hint** - our _target_ machine is called *localhost*)

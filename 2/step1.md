@@ -4,7 +4,7 @@ You can run Ansible in two different modes:
 
 > structured: execute ansible playbook (script) that performs a number of predefined tasks on remote servers in a specific order
 
-Try running `ansible`{{execute}} (ad-hoc mode) and you will notice that it expects the name of the server to which you want to talk to and additional options like the command that you want to execute:
+Try running `ansible`{{execute}} (ad-hoc mode) and you will notice that it expects host-pattern (names of servers to which you want to talk to) and additional options like the command that you want to execute:
 
 **Usage: ansible host-pattern [options]** 
 
@@ -12,4 +12,4 @@ Then run `ansible-playbook`{{execute}} (structured mode) which needs only the na
 
 **Usage: ansible-playbook playbook.yml** 
 
-We will start with ad-hoc mode.
+We will start with the ad-hoc mode.

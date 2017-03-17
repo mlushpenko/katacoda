@@ -1,0 +1,1 @@
+`ansible localhost -m file -a "path=/home/scrapbook/tutorial/tasks state=directory mode=0755"`{{execute}}
