@@ -1,7 +1,10 @@
 {
     "title": "Ansible Intro",
     "description": "Learn what is Ansible and how to execute simple commands",
-    "course": "Ansible",
+    "course": "ansible",
+    "difficulty": "beginner",
+    "time": "10-15 minutes",
+    "authenticated": false,
     "details": {
         "steps": [
             {
